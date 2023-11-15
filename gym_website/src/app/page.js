@@ -19,7 +19,7 @@ export default function Home() {
           />
           <button class="hover:pointer py-2 px-4 rounded inline-flex items-center">
             <svg
-              className="w-4 h-4 m-3 text-blue-400 rounded-full outline outline-offset-4 outline-color-white"
+              className="w-4 h-4 m-3 text-primary-default rounded-full outline outline-offset-4 outline-color-white"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
