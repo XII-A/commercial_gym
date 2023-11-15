@@ -33,6 +33,12 @@ function Navbar() {
           >
             Community
           </a>
+          <a
+            href="#footer"
+            className={`text-white mx-2 no-underline  transition-all hover:text-primary-default`}
+          >
+            About Us
+          </a>
         </div>
         <div className="flex items-center ms-1.5">
           <OutlinedButton label={"Login"} extraClassNames={"mx-1"} />
