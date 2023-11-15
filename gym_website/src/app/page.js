@@ -7,49 +7,49 @@ export default function Home() {
     <div>
       <div className="flex items-center px-32">
         <div>
-          <div className="flex text-4xl font-semibold items-center justify-center py-2 text-white ">
+          <div className="flex text-7xl font-semibold items-center justify-center py-2 text-white ">
             Helps for your ideal body fitness
           </div>
-          <div className=" text-white text-opacity-50 text-sm font-light pb-6">
+          <div className=" text-white text-opacity-50 text-xl font-light pb-6">
             Motivate users with benefits and positive reinforcement, and offer
             modifications and progress tracking.
           </div>
           <div className="flex items-center">
             <ContainedButton
               label={"Start Training"}
-              extraClassNames={"mx-1 font-semibold text-xs"}
+              extraClassNames={"mx-2 font-semibold text-xl"}
             />
             <button class="hover:pointer py-2 px-4 rounded inline-flex items-center">
               <Image
                 src={PlayButton}
-                className="w-10 h-10 m-3 ring-1 ring-white  font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center"
+                className="w-14 h-14 m-3 ring-1 ring-white  font-medium rounded-full p-2.5 text-center inline-flex items-center"
               />
 
-              <span className="text-xs ml-1 text-white">Watch Demo</span>
+              <span className="ml-1 text-white text-xl">Watch Demo</span>
             </button>
           </div>
         </div>
 
         <div className="relative px-[3rem] mr-[2rem] w-[100%] flex justify-center items-start inline-flex">
-          <div className="justify-center items-center gap-2.5 inline-flex">
-            <img className="z-10 " src="../alkfiuha.png" />
+          <div className=" justify-center items-center gap-2.5 inline-flex">
+            <img className="z-10 w-[35rem]" src="../alkfiuha.png" />
           </div>
 
-          <div className="absolute z-0 left-[-10.5rem] top-[140px] text-white -rotate-90 text-opacity-10 text-8xl font-black ">
+          <div className="absolute z-0 left-0 top-[14rem] text-white -rotate-90 text-opacity-10 text-9xl font-black ">
             Fitness
           </div>
           <div className="absolute right-0">
-            <div className="relative w-[160px] h-[100%] justify-between items-start inline-flex">
-              <div className="absolute right-[72px]">
-                <img className="w-10 h-10 flex" src="../Ellipse 1.png" />
+            <div className="relative w-[15rem] h-[10rem] justify-between items-start inline-flex">
+              <div className="absolute left-[-3rem]">
+                <img className="w-16 h-16 flex" src="../Ellipse 1.png" />
               </div>
-              <div className="absolute right-[47px]">
-                <img className="w-10 h-10 flex" src="../Ellipse 2.png" />
+              <div className="absolute left-[-5.5rem]">
+                <img className="w-16 h-16 flex" src="../Ellipse 2.png" />
               </div>
-              <div className="absolute right-[22px]">
-                <img className="w-10 h-10 flex" src="../Ellipse 3.png" />
+              <div className="absolute left-[-8rem]">
+                <img className="w-16 h-16 flex" src="../Ellipse 3.png" />
               </div>
-              <div className="absolute top-[50px] left-[50px] text-white text-xs">
+              <div className="absolute w-[100%] top-[6rem] right-[8rem] text-white text-lg">
                 10k+ satisfied customers
               </div>
             </div>
