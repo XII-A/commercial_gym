@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PlayButton from "public/PlayButton.svg"
 import ContainedButton from "../components/NavBar/ContainedButton";
 
 export default function Home() {
@@ -18,18 +19,8 @@ export default function Home() {
             extraClassNames={"mx-1 font-semibold text-xs"}
           />
           <button class="hover:pointer py-2 px-4 rounded inline-flex items-center">
-            <svg
-              className="w-4 h-4 m-3 text-primary-default rounded-full outline outline-offset-4 outline-color-white"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                clip-rule="evenodd"
-              />
-            </svg>
+            
+            <Image src={PlayButton} className="w-10 h-10 m-3 ring-1 ring-white  font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center" />
 
             <span className="text-xs ml-1 text-white">Watch Demo</span>
           </button>

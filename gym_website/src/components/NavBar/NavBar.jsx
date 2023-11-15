@@ -14,31 +14,26 @@ function Navbar() {
         <div className={`flex items-center`}>
           <a
             href="#home"
-            className={`text-white mx-2 no-underline text-xs transition-all hover:text-primary-default`}
+            className={`text-white mx-2 no-underline text-sm transition-all hover:text-primary-default`}
           >
             Home
           </a>
           <a
             href="#program"
-            className={`text-white mx-2 no-underline text-xs transition-all hover:text-primary-default`}
+            className={`text-white mx-2 no-underline text-sm transition-all hover:text-primary-default`}
           >
             Program
           </a>
-          <a
-            href="#pricing"
-            className={`text-white mx-2 no-underline text-xs transition-all hover:text-primary-default`}
-          >
-            Pricing
-          </a>
+          
           <a
             href="#footer"
-            className={`text-white mx-2 no-underline text-xs transition-all hover:text-primary-default`}
+            className={`text-white mx-2 no-underline text-sm transition-all hover:text-primary-default`}
           >
             Community
           </a>
           <a
             href="#footer"
-            className={`text-white mx-2 no-underline text-xs transition-all hover:text-primary-default`}
+            className={`text-white mx-2 no-underline text-sm transition-all hover:text-primary-default`}
           >
             About Us
           </a>
