@@ -6,7 +6,7 @@ import OutlinedButton from "./OutlinedButton";
 
 function Navbar() {
   return (
-    <div className={`flex justify-between items-center px-32 py-4 `}>
+    <div className={`flex justify-between items-center px-32 py-5 `}>
       <div>
       <Image src={GymLogo} className="w-16 h-16"></Image>
       </div>

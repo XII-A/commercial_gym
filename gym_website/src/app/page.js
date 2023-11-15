@@ -5,7 +5,7 @@ import ContainedButton from "../components/NavBar/ContainedButton";
 export default function Home() {
   return (
     <div>
-      <div className="flex items-center px-32">
+      <div className="flex items-center px-32 py-5">
         <div>
           <div className="flex text-7xl font-semibold items-center justify-center py-2 text-white ">
             Helps for your ideal body fitness
@@ -40,16 +40,16 @@ export default function Home() {
           </div>
           <div className="absolute right-0">
             <div className="relative w-[15rem] h-[10rem] justify-between items-start inline-flex">
-              <div className="absolute left-[-3rem]">
+              <div className="absolute top-[5rem] left-[-2.5rem]">
                 <img className="w-16 h-16 flex" src="../Ellipse 1.png" />
               </div>
-              <div className="absolute left-[-5.5rem]">
+              <div className="absolute top-[5rem] left-[-5rem]">
                 <img className="w-16 h-16 flex" src="../Ellipse 2.png" />
               </div>
-              <div className="absolute left-[-8rem]">
+              <div className="absolute top-[5rem] left-[-7.5rem]">
                 <img className="w-16 h-16 flex" src="../Ellipse 3.png" />
               </div>
-              <div className="absolute w-[100%] top-[6rem] right-[8rem] text-white text-lg">
+              <div className="absolute w-[100%] top-[10rem] right-[7rem] text-white text-lg">
                 10k+ satisfied customers
               </div>
             </div>
