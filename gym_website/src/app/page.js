@@ -1,9 +1,14 @@
 import Image from "next/image";
 import PlayButton from "public/PlayButton.svg"
 import ContainedButton from "../components/NavBar/ContainedButton";
+import SectionOne from "@/components/Program/SectionOne";
+import SectionTwo from "@/components/Transform/SectionTwo";
+import SectionThree from "@/components/Enhance/SectionThree";
+import SectionFour from "@/components/Reviews/SectionFour";
 
 export default function Home() {
   return (
+    <>
     <div className="flex items-center px-32">
       <div className="w-[100%]">
         <div className="flex text-4xl font-semibold items-center justify-center py-2 text-white ">
@@ -53,5 +58,12 @@ export default function Home() {
         </div>
       </div>
     </div>
+    <div className=" min-h-screen py-2 ">
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
+    </div>
+    </>
   );
 }

@@ -27,6 +27,9 @@ module.exports = {
         white: "#FFFFFF",
       },
     },
+    fontFamily: {
+      urban: ["Urbanist", "sans-serif"],
+    },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
