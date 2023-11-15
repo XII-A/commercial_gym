@@ -6,7 +6,7 @@ import Image from "next/image";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 const SectionTwo = () => {
   return (
-    <div className="grid grid-cols-2  w-full px-32 mt-16 ">
+    <div className="grid grid-cols-2  w-full px-32 mt-16 " >
       <div className=" relative h-[500px]">
         <Image
           src={workout1}

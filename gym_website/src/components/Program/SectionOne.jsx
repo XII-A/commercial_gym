@@ -12,6 +12,7 @@ const CardSlider = () => {
       //Return to last card
       setSelectedCard(9);
       slider.scrollLeft = 305 * 9;
+
       return;
     }
 
@@ -30,9 +31,9 @@ const CardSlider = () => {
     setSelectedCard(selectedCard + 1);
   };
   return (
-    <div className="w-full">
-      <div className="px-32 py-4">
-        <div className="flex flex-row justify-between items-center relative">
+    <div className="w-full" id="program">
+      <div className="px-32 py-4 relative">
+        <div className="flex flex-row justify-between items-center ">
           <div className="text-[56px] font-bold font-urban text-white">
             Explore Our Program
           </div>
@@ -53,7 +54,7 @@ const CardSlider = () => {
             </button>
           </div>
         </div>
-        <div className="text-[144px] opacity-10 text-white font-urban font-bold absolute top-0 left-[-21px]">
+        <div className="text-[144px] opacity-10 text-white font-urban font-bold absolute top-[-70px] left-[-21px]">
           Program
         </div>
       </div>

@@ -36,7 +36,7 @@ const SectionFour = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-2  w-full px-32 mt-16 ">
+    <div className="grid grid-cols-2  w-full px-32 mt-16 mb-4">
       <div className=" h-[300px]">
         <div className="flex flex-col justify-between items-start font-urban text-white h-full relative">
           <div className="text-[40px] font-bold w-3/4">

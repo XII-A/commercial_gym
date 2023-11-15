@@ -7,10 +7,15 @@ import Logo from "../icons/logo.svg";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between items-center px-32 py-4 text-white">
+    <div
+      className="flex justify-between items-center px-32 py-4 text-white"
+      id="footer"
+    >
       <div className="flex flex-col items-start w-1/4">
         <div className="flex justify-start items-center gap-3">
-          <div><Image src={Logo} style={{ color: "white" }}></Image></div>
+          <div>
+            <Image src={Logo} style={{ color: "white" }}></Image>
+          </div>
           <div>Gym Center</div>
         </div>
         <div className="text-xs">
@@ -53,10 +58,7 @@ const Footer = () => {
             <div class="flex items-center mb-2 text-xs">
               <span class="mr-2"></span>
               <div class="flex flex-col items-center">
-                Contact Us:
-                <a href="mailto:ameenok4sh@gmail.com">
-                  <Image src={GmailIcon} style={{ color: "white" }} />
-                </a>
+                <a href="mailto:ameenok4sh@gmail.com">Contact Us:</a>
               </div>
             </div>
           </div>

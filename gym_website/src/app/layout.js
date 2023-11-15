@@ -10,13 +10,12 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Fitness",
   description: "Achieve your dreams with Fitness",
-  
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} id="home">
         <Navbar />
         {children}
         <SubToTips />
